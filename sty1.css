@@ -1,0 +1,49 @@
+div{border:solid green thin}
+div#top{height:"100%" }
+div#side{width:15%;float:left;height:100%}
+
+div#content{height:100%;widht:70%}
+div#footer{height:100px;width:100%}
+
+div#content a:link,a:active{
+background-color:#90EE90;
+color:white;
+padding:14px 25px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+
+}
+
+div#content a:hover{ 
+background-color:#20B2AA;
+color:white;
+padding:14px 25px;
+text-align:center;
+text-decoration:none;
+display:inline-block;}
+
+body{
+background-image:url("bg.jpg");
+
+}
+
+div#side
+a:link,a:active{
+background-color:#1E90FF;
+color:white;
+padding:14px 25px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+
+}
+
+div#side a:hover{ 
+background-color:red;
+color:white;
+padding:14px 25px;
+text-align:center;
+text-decoration:none;
+display:inline-block;}
+
